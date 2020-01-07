@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #2E7AD3;
+    font-size: 48px;
+    margin: 45px 0;
+    text-align: center;
+}
+
+h2 {
+    color: #104C90;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/* set all p tag margin-top to 0 */
+p {
+    margin-top: 0;
+}
+
+a:link {
+    color: #FF8000;
+    font-weight: bold;
+}
+
+a:focus,
+a:hover {
+    color: #2E7AD3;
+}
+
+.first-post {
+    background-color: #f1f1f1;
+    width: 450px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+/* set the first paragraph to have margin top 25px and margin bottom 9px */
+.first-para{
+    margin: 25px 0 9px;
+}
+
+/* set read more margin to 0, if not it has a default margin */
+.read-more {
+    margin: 0;
+}
